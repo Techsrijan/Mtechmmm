@@ -29,6 +29,9 @@ while i<=a-1:
     print(lst[i])
     i=i+1
 
-for p in range(1,101):
+for p in range(2,101,2):
     if(p%3==0):
         print(p)
+        break
+else:
+    print("Loop properly runs")

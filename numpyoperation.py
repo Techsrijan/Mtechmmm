@@ -14,6 +14,8 @@ print(arr3)
 
 print(concatenate([arr1,arr2]))
 
+
+
 ''' copy an array to another arrray'''
 ''' aliasing '''
 arr4 = arr1
@@ -40,6 +42,8 @@ print('shallow copy')
 arr1[1] =500
 print(arr1)
 print(arr4)
+
+
 ''' "if we change in another then change occurs in both"'''
 arr4[0]=6000
 print(arr4)
@@ -57,3 +61,9 @@ print(id(arr7))
 arr6[3]=45555
 print(arr6)
 print(arr7)
+
+
+print('aa')
+print(min([arr6]))
+
+

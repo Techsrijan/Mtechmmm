@@ -29,20 +29,34 @@ def calci(x,y):
 r,s,t=calci(40,5)
 print("Sum=",r,"Sub=",s,"Multi=",t)
 
+
+
+def person2(name,age):
+    print("Name=",name,"age=",age)
+    #age=age+10
+    print(age)
+
+    # position
+
+
+person2("ABCD", 25)
+person2(25,"ram")
+
+# person(35,"hum")
+'''   
 def person(name,age=18):
     print("Name=",name,"age=",age)
     age=age+10
     print(age)
+    
 
-#position
-person("ABCD",25)
-#person(35,"hum")
+
 
 #keyword
 person(name="ashwani",age=44)
 person(age=44,name="asas")
 '''
-actual argument can pass in a function 
+'''actual argument can pass in a function 
 1. Position
 2. Keyword
 3. Default
@@ -50,7 +64,7 @@ actual argument can pass in a function
 '''
 
 #Default
-person(name="humtum")
+'''person(name="humtum")
 person(name="ashwani",age=44)
 
 # variable length
@@ -85,3 +99,4 @@ def personinfo1(name,**data):
         print(i,j)
 
 personinfo1('abcd',age=32,city='delhi',phone=9956477677)
+'''

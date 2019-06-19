@@ -1,0 +1,32 @@
+#import turtle
+
+from turtle import *
+s=Turtle()
+s.color("#32CD32")
+s.speed(1)
+s.begin_fill()
+s.forward(100)
+s.left(90)
+s.forward(100)
+s.left(90)
+s.forward(100)
+s.left(90)
+s.forward(100)
+s.end_fill()
+s.penup()
+s.forward(100)
+s.pendown()
+s.left(90)
+s.forward(100)
+s.right(90)
+s.forward(100)
+s.right(90)
+s.forward(100)
+s.right(90)
+s.forward(100)
+#s.color("orange")
+#s.right(45)
+
+#s.backward(200)
+
+done()

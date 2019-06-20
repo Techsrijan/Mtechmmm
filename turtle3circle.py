@@ -1,0 +1,17 @@
+from turtle import *
+s=Turtle()
+s.shape('turtle')
+s.circle(50) #anticlockwise
+s.forward(50)
+#s.reset()
+s.undo()
+s.circle(-50)
+s.forward(30)
+s.circle(70,90)
+s.right(90)
+s.forward(20)
+s.color("red","green")
+s.begin_fill()
+s.circle(100,steps=10)
+s.end_fill()
+done()

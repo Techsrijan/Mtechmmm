@@ -1,0 +1,12 @@
+from turtle import *
+s=Turtle()
+s.shape('turtle')
+Screen().bgcolor("Yellow")
+#Screen().bgcolor(100,20,40)
+Screen().title("My Application")
+Screen().bgpic("Koala.gif")
+s.color("blue","green")
+s.hideturtle()
+s.speed(1)
+s.forward(100)
+done()

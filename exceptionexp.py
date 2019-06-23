@@ -1,8 +1,9 @@
 a=10
-b=2
+#b=2
 lst= [1,2,3]
 print("I opened th freez")
 try:
+    b = int(input("enter second number"))
     d=a/b
     print(d)
     print(lst[1])

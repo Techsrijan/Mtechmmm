@@ -1,15 +1,24 @@
 from tkinter import *
 root =Tk()
-frame=Frame(root)
+#frame=Frame(root)
 
-TheLabel= Label(frame,text="Enter User Name")
+TheLabel= Label(root,text="Enter User Name")
 TheLabel.pack()
-button1=Button(frame,text="Login")
-button2=Button(frame,text="Register")
-button3=Button(frame,text="Cancel")
+button1=Button(root,text="Login",bg="red",fg="yellow",padx="10")
+button2=Button(root,text="Register",padx=20)
+button5=Button(root,text="Registerfdsfsdf")
+button3=Button(root,text="Cancel")
 button1.pack(side=LEFT)
-button2.pack(side=RIGHT)
-button3.pack(side=BOTTOM)
-frame.pack()
+#button2.pack(fill=X)
+button2.pack(side=LEFT)
+button3.pack(side=LEFT,fill=Y)
+button5.pack()
+
+#frame.pack()
+f=Frame(root)
+button4=Button(f,text="Register")
+button4.pack(fill=X)
+f.pack(side=BOTTOM)
+
 #widgets
 root.mainloop()

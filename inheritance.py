@@ -1,3 +1,16 @@
+
+'''
+
+Deriving a new class from the base class is known as inhertitance
+Room --base (Parent)
+GuestRoom --Derived class (child)
+type of inheritance
+1. single level inhertitance
+2. multilevel inheritance
+3. hierarchical inheritance
+4. multiple inheritance
+5. Hybrid Inhritance
+'''
 class room:
     def __init__(self,l,b):
         self.l=l

@@ -15,4 +15,5 @@ entry1.place(x=200,y=200)
 
 
 #widgets
+root.geometry("500x300+400+120")
 root.mainloop()
